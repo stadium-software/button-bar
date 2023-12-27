@@ -2,15 +2,13 @@
 
 Use a Button Bar to combine the triggers for a number of related features into one interface element. 
 
-
 https://github.com/stadium-software/button-bar/assets/2085324/8a040878-f1ec-44d1-99c6-1a03d9f9ad25
-
 
 ## Version 
 1.0 - initial
 
 ## Dependency
-To show icons in buttons, the [Icons Module](https://github.com/stadium-software/icons) must be implemented
+To display icons in buttons, the [Icons Module](https://github.com/stadium-software/icons) must be implemented in the application
 
 # Setup
 
