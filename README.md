@@ -4,6 +4,14 @@ Use a Button Bar to combine the triggers for a number of related features into o
 
 https://github.com/stadium-software/button-bar/assets/2085324/8a040878-f1ec-44d1-99c6-1a03d9f9ad25
 
+## Best Practices
+- Use button groups to organize similar functionality. Don't group buttons just because they're close together.
+- For most use-cases, only default button types should be used in button groups. In rare cases, primary buttons can be included in button groups but there should only ever be one primary button (if any) in a button group.
+- Avoid grouping too many buttons together. It could be overwhelming to the user.
+- Do not use a button group to indicate a selection. Use a Toggle Button instead (https://github.com/stadium-software/toggle-buttons).
+- Do not use a button group as a replacement for tab navigation (https://github.com/stadium-software/tabs).
+- Avoid mixing buttons with text labels with icon-only buttons. However, it is acceptable to group a text-labeled button with an icon-only button with a down-pointing triangle that opens a dropdown menu of actions related to the button.
+
 ## Version 
 1.0 - initial
 
