@@ -20,7 +20,7 @@ To show icons in buttons, the [Icons Module](https://github.com/stadium-software
 4. Add the text you wish to show on the buttons into the text property
 
 ## Button Icons
-To be able to display icons in buttons, the [Icons Module](https://github.com/stadium-software/icons) must be implemented.
+To be able to display icons in buttons, the [Icons Module](https://github.com/stadium-software/icons) must be implemented. Once implemented, you can apply classes as described in that module to the buttons to display them with icons. 
 
 # Styling
 Various elements in this module can be styled using the two CSS files in this repo
