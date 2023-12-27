@@ -1,0 +1,78 @@
+.stadium-button-bar {
+    &>.stack-layout-container {
+        padding-right: 16px;
+        margin-top: 10px;
+        display: flex;
+        flex-direction: row;
+        gap: 0 1px;
+    }
+
+    & .button-container {
+        display: flex;
+        flex-direction: column;
+        padding-right: 0;
+        margin-top: 0;
+
+        & .btn-default {
+            border-radius: 0;
+            box-shadow: none;
+            height: 100%;
+
+            & iconify-icon {
+                padding-bottom: 4px;
+            }
+        }
+    }
+
+    &:is(.row-flex-direction-element) {
+        & .button-container {
+            border-right: 1px solid var(--button-bar-border-color);
+        }
+
+        & .button-container:last-child {
+            border-right: 0;
+        }
+    }
+
+    &:is(.column-flex-direction-element) {
+        & .button-container {
+            border-bottom: 1px solid var(--button-bar-border-color);
+        }
+
+        & .button-container:last-child {
+            border-bottom: 0;
+        }
+    }
+
+    &:is(.icon-left)>.stack-layout-container .btn-default {
+        flex-direction: row;
+
+        & iconify-icon {
+            padding-bottom: 0;
+        }
+    }
+
+    &:is(.icon-right)>.stack-layout-container .btn-default {
+        flex-direction: row;
+
+        & iconify-icon {
+            padding-bottom: 0;
+            order: 2;
+        }
+    }
+
+    &:is(.icon-bottom)>.stack-layout-container .btn-default {
+
+        & iconify-icon {
+            padding-bottom: 0;
+            order: 2;
+        }
+    }
+
+    &:is(.button-bar-select, .button-bar-select-multiple) {
+        & .button-container:not(.button-selected) button {
+            background-color: var(--button-bar-deselected-button-background-color);
+            color: var(--button-bar-deselected-button-font-color);
+        }
+    }
+}
