@@ -10,7 +10,7 @@ https://github.com/stadium-software/button-bar/assets/2085324/8a040878-f1ec-44d1
 - Avoid grouping too many buttons together. It could be overwhelming to the user.
 - Do not use a button group to indicate a selection. Use a Toggle Button instead (https://github.com/stadium-software/toggle-buttons).
 - Do not use a button group as a replacement for tab navigation (https://github.com/stadium-software/tabs).
-- Avoid mixing buttons with text labels with icon-only buttons. However, it is acceptable to group a text-labeled button with an icon-only button with a down-pointing triangle that opens a dropdown menu of actions related to the button.
+- Avoid mixing buttons with text labels with icon-only buttons.
 
 ## Version 
 1.0 - initial
