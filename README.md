@@ -15,8 +15,10 @@ https://github.com/stadium-software/button-bar/assets/2085324/8a040878-f1ec-44d1
 ## Version 
 1.0 - initial
 
-## Dependency
+## Icons Dependency
 To display icons in buttons, the Icons Global Script must exist in the Global Scripts folder of the application and the Icons CSS files need to be included (see [Icons Module](https://github.com/stadium-software/icons)). It is not necessary to call the Icons script directly, the script only has to exist in the application. 
+
+
 
 # Setup
 
