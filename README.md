@@ -15,11 +15,6 @@ https://github.com/stadium-software/button-bar/assets/2085324/07ca94ed-7f60-433f
 ## Version 
 1.0 - initial
 
-## Icons Dependency
-To display icons in buttons, the [Icons Module](https://github.com/stadium-software/icons) must be implemented in the application. The Icons script needs to be called in the Page.Load event handler to display icons in button bar buttons. 
-
-![](images/StadiumDesigner.png)
-
 # Setup
 
 ## Application Setup
@@ -32,7 +27,9 @@ To display icons in buttons, the [Icons Module](https://github.com/stadium-softw
 4. Add the text you wish to show on the buttons into the text property
 
 ## Button Icons
-To be able to display icons in buttons, the [Icons Module](https://github.com/stadium-software/icons) must be implemented. Once implemented, you can apply classes as described in that module to the buttons to display them with icons. 
+To display icons in buttons, the [Icons Module](https://github.com/stadium-software/icons) must be implemented in the application and the Icons script needs to be called in the Page.Load event handler. You can then apply classes to the button controls as described in the [Icons Module](https://github.com/stadium-software/icons) to display icons in buttons. 
+
+![](images/StadiumDesigner.png)
 
 # Styling
 Various elements in this module can be styled using the two CSS files in this repo
