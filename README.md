@@ -2,7 +2,7 @@
 
 Use a Button Bar to combine the triggers for a number of related features into one interface element. 
 
-https://github.com/stadium-software/button-bar/assets/2085324/8a040878-f1ec-44d1-99c6-1a03d9f9ad25
+https://github.com/stadium-software/button-bar/assets/2085324/07ca94ed-7f60-433f-9f56-7b785c62c5b6
 
 ## Best Practices
 - Use button groups to organize similar functionality. Don't group buttons just because they're close together.
