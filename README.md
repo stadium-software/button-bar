@@ -31,6 +31,10 @@ To display icons in buttons, the [Icons Module](https://github.com/stadium-softw
 
 ![](images/StadiumDesigner.png)
 
+## Icon Style Classes
+
+This repo supports the use of classes for the positioning, sizing and colouring of icons as described [here](https://github.com/stadium-software/button-label-link-icons?tab=readme-ov-file#icon-styles) and [here](https://github.com/stadium-software/icons?tab=readme-ov-file#icon-style-classes)
+
 # Styling
 Various elements in this module can be styled using the two CSS files in this repo
 
