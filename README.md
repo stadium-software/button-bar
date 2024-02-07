@@ -27,7 +27,7 @@ https://github.com/stadium-software/button-bar/assets/2085324/07ca94ed-7f60-433f
 4. Add the text you wish to show on the buttons into the text property
 
 ## Button Icons
-To display icons in buttons, the [Icons Module](https://github.com/stadium-software/icons) must be implemented in the application and the Icons script needs to be called in the Page.Load event handler. You can then apply classes to the button controls as described in the [Icons Module](https://github.com/stadium-software/icons) to display icons in buttons. 
+To display icons in buttons, the [Icons Module](https://github.com/stadium-software/icons) must be implemented in the application and the Icons script needs to be called in the Page.Load event handler. You can then apply classes to the button controls as described in the [Buttons, Labels and Links Module](https://github.com/stadium-software/button-label-link-icons) to display icons in buttons. 
 
 ![](images/StadiumDesigner.png)
 
