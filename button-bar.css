@@ -1,5 +1,6 @@
+/* CSS Version 1.0 https: //github.com/stadium-software/button-bar */
 .stadium-button-bar {
-    &>.stack-layout-container {
+    & > .stack-layout-container {
         padding-right: 16px;
         margin-top: 10px;
         display: flex;
